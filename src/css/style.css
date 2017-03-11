@@ -1,0 +1,7 @@
+.new-class {
+  font-size: 32px;
+}
+
+.other-class {
+  font-size: {{ font }};
+}
