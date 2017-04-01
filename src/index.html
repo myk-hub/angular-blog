@@ -2,12 +2,16 @@
 <html ng-app='try'>
 
 <head>
+    <base href="/">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MyExampleBlog</title>
     <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js'></script>
-    <link href="./css/style.css" rel="stylesheet">
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-resource.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.js'></script>
+
+    <link href="./css/style.css" rel="stylesheet" type="css">
 
     <script src='./js/app/app.module.js' ></script>
     <script src='./js/app/app.config.js' ></script>
@@ -17,7 +21,9 @@
 </head>
 
 <body>
-    <blog-list></blog-list>
+    <div ng-view>
+
+    </div>
 </body>
 
 </html>
