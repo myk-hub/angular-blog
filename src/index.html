@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="image/icon.png" />
     <title>MyExampleBlog</title>
     <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js'></script>
     <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-resource.js'></script>
@@ -15,7 +16,10 @@
 
     <script src='/js/app/app.module.js' ></script>
     <script src='/js/app/app.config.js' ></script>
-    
+
+    <script src='/js/app/core/post/post.module.js' ></script>
+    <script src='/js/app/core/post/post.service.js' ></script>
+
     <script src='/js/app/blog-detail/blog-detail.module.js' ></script>
     <script src='/js/app/blog-detail/blog-detail.component.js' ></script>
 
@@ -26,6 +30,7 @@
 </head>
 
 <body>
+    <h1>Us</h1>
     <div ng-view>
 
     </div>
