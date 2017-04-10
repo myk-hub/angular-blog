@@ -16,7 +16,7 @@ angular.
         get: {
           method: "GET",
           //params: {"id": @id},
-          isArray: false,
+          isArray: true,
           cache: true,
         }
       })
