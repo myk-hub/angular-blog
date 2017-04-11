@@ -2,6 +2,7 @@
 
 angular.module('try', [
   //external
+  'angularUtils.directives.dirPagination',
   'ngResource',
   'ngRoute',
 
@@ -9,4 +10,5 @@ angular.module('try', [
   'blogDetail',
   'blogList',
   'confirmClick',
+  'tryNav',
 ]);

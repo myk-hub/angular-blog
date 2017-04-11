@@ -15,6 +15,8 @@
 
     <link href="./css/style.css" rel="stylesheet" type="css">
 
+    <script src='/js/external/dirPagination.js' ></script>
+
     <script src='/js/app/app.module.js' ></script>
     <script src='/js/app/app.config.js' ></script>
 
@@ -29,16 +31,17 @@
     <script src='/js/app/utils/confirm-click/confirm-click.module.js' ></script>
     <script src='/js/app/utils/confirm-click/confirm-click.directive.js' ></script>
 
+    <script src='/js/app/utils/try-nav/try-nav.module.js' ></script>
+    <script src='/js/app/utils/try-nav/try-nav.directive.js' ></script>
 </head>
 </head>
 
 <body>
-    <nav class='container'>
-      <h1>Us</h1>
-    </nav>
-    <div class='container' ng-view>
-
+  <div class='container'>
+    <try-nav></try-nav>
+    <div class='col-sm-12' ng-view>
     </div>
+  </div>
 </body>
 
 </html>

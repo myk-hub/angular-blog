@@ -3,8 +3,33 @@
         "comments": [
             {"id": 1, "text": "Nice book"},
             {"id": 2, "text": "Another comment" }
-        ]},
-    {"title": "Title", "id": 2, "description": "This is a book"},
-    {"title": "Tea", "id": 3, "description": "This is a book"},
-    {"title": "Lite", "id": 4, "description": "This is a book"}
+        ],
+        "image": "https://cdn.elegantthemes.com/blog/wp-content/uploads/2016/02/DN-Short-Lessons-Learned-Blog-Image.png"
+      },
+    {"title": "Title", "id": 2, "description": "This is a book", "publishDate": "05-13-2016", "image": "http://callmenick.com/files/2015-09/angular-featured.png"},
+    {"title": "Tea", "id": 3, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/2.jpg"},
+    {"title": "New Item", "id": 1, "description": "This is a book", "publishDate": "25-03-2017",
+        "comments": [
+            {"id": 1, "text": "Nice book"},
+            {"id": 2, "text": "Another comment" }
+        ],
+      "image": "/img/2.jpg"},
+    {"title": "Title", "id": 2, "description": "This is a book", "publishDate": "19-06-2015", "image": "/img/2.jpg"},
+    {"title": "Tea", "id": 3, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/1.png"},
+    {"title": "Lite", "id": 4, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/2.jpg"},
+    {"title": "Title", "id": 2, "description": "This is a book", "publishDate": "19-06-2015", "image": "/img/2.jpg"},
+    {"title": "Tea", "id": 3, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/1.png"},
+    {"title": "Lite", "id": 4, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/2.jpg"},
+    {"title": "Title", "id": 2, "description": "This is a book", "publishDate": "19-06-2015", "image": "/img/2.jpg"},
+    {"title": "Tea", "id": 3, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/1.png"},
+    {"title": "Lite", "id": 4, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/2.jpg"},
+    {"title": "Title", "id": 2, "description": "This is a book", "publishDate": "19-06-2015", "image": "/img/2.jpg"},
+    {"title": "Tea", "id": 3, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/1.png"},
+    {"title": "Lite", "id": 4, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/2.jpg"},
+    {"title": "Title", "id": 2, "description": "This is a book", "publishDate": "19-06-2015", "image": "/img/2.jpg"},
+    {"title": "Tea", "id": 3, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/1.png"},
+    {"title": "Lite", "id": 4, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/2.jpg"},
+    {"title": "Title", "id": 2, "description": "This is a book", "publishDate": "19-06-2015", "image": "/img/2.jpg"},
+    {"title": "Tea", "id": 3, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/1.png"},
+    {"title": "Lite", "id": 4, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/2.jpg"}
 ]
