@@ -1,5 +1,7 @@
-# angular-blog
-This project is created for experiments with AngularJS framework. 
+# Angular-blog
+This project is created for experiments with AngularJS framework.
+## Link
+[Angular-blog](https://angblog.herokuapp.com/)
 # Such functions as are realized: 
 * viewing of posts 
 * viewing of comments 
