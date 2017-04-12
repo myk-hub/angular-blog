@@ -1,35 +1,173 @@
-[
-    {"title": "New Item", "id": 1, "description": "This is a book", "publishDate": "25-03-2017",
-        "comments": [
-            {"id": 1, "text": "Nice book"},
-            {"id": 2, "text": "Another comment" }
+[{
+        "title": "About web",
+        "id": 1,
+        "description": "Something about web-development",
+        "publishDate": "25-03-2017",
+        "comments": [{
+                "id": 1,
+                "text": "Nice"
+            },
+            {
+                "id": 2,
+                "text": "add to a bookmarks "
+            }
         ],
         "image": "https://cdn.elegantthemes.com/blog/wp-content/uploads/2016/02/DN-Short-Lessons-Learned-Blog-Image.png"
-      },
-    {"title": "Title", "id": 2, "description": "This is a book", "publishDate": "05-13-2016", "image": "http://callmenick.com/files/2015-09/angular-featured.png"},
-    {"title": "Tea", "id": 3, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/2.jpg"},
-    {"title": "New Item", "id": 1, "description": "This is a book", "publishDate": "25-03-2017",
-        "comments": [
-            {"id": 1, "text": "Nice book"},
-            {"id": 2, "text": "Another comment" }
+    },
+    {
+        "title": "Angular",
+        "id": 2,
+        "description": "Something about Angular",
+        "publishDate": "05-13-2016",
+        "image": "http://callmenick.com/files/2015-09/angular-featured.png"
+    },
+    {
+        "title": "Atom Editor",
+        "id": 3,
+        "description": "At GitHub, we're building the text editor we've always wanted: hackable to the core, but approachable on the first day without ever touching a config file",
+        "publishDate": "15-26-2016",
+        "image": "/img/3.jpg"
+    },
+    {
+        "title": "AngularJS",
+        "id": 4,
+        "description": "Angular is a development platform for building mobile and desktop web applications.",
+        "publishDate": "25-03-2017",
+        "comments": [{
+                "id": 1,
+                "text": "Cool!"
+            },
+            {
+                "id": 2,
+                "text": "Thank you"
+            }
         ],
-      "image": "/img/2.jpg"},
-    {"title": "Title", "id": 2, "description": "This is a book", "publishDate": "19-06-2015", "image": "/img/2.jpg"},
-    {"title": "Tea", "id": 3, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/1.png"},
-    {"title": "Lite", "id": 4, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/2.jpg"},
-    {"title": "Title", "id": 2, "description": "This is a book", "publishDate": "19-06-2015", "image": "/img/2.jpg"},
-    {"title": "Tea", "id": 3, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/1.png"},
-    {"title": "Lite", "id": 4, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/2.jpg"},
-    {"title": "Title", "id": 2, "description": "This is a book", "publishDate": "19-06-2015", "image": "/img/2.jpg"},
-    {"title": "Tea", "id": 3, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/1.png"},
-    {"title": "Lite", "id": 4, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/2.jpg"},
-    {"title": "Title", "id": 2, "description": "This is a book", "publishDate": "19-06-2015", "image": "/img/2.jpg"},
-    {"title": "Tea", "id": 3, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/1.png"},
-    {"title": "Lite", "id": 4, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/2.jpg"},
-    {"title": "Title", "id": 2, "description": "This is a book", "publishDate": "19-06-2015", "image": "/img/2.jpg"},
-    {"title": "Tea", "id": 3, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/1.png"},
-    {"title": "Lite", "id": 4, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/2.jpg"},
-    {"title": "Title", "id": 2, "description": "This is a book", "publishDate": "19-06-2015", "image": "/img/2.jpg"},
-    {"title": "Tea", "id": 3, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/1.png"},
-    {"title": "Lite", "id": 4, "description": "This is a book", "publishDate": "15-26-2016", "image": "/img/2.jpg"}
+        "image": "/img/2.jpg"
+    },
+    {
+        "title": "Angular 2",
+        "id": 6,
+        "description": "Awesome Angular 2",
+        "publishDate": "19-06-2015",
+        "image": "/img/4.jpg"
+    },
+    {
+        "title": "Bootstrap 3",
+        "id": 7,
+        "description": "Bootstrap, a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.",
+        "publishDate": "15-26-2016",
+        "image": "/img/5.jpg"
+    },
+    {
+        "title": "Bootstrap UI",
+        "id": 8,
+        "description": "In this article, we compiled a list of 13 Bootstrap UI kits and explain how they can improve your workflow.",
+        "publishDate": "15-26-2016",
+        "image": "/img/6.png"
+    },
+    {
+        "title": "Html5",
+        "id": 9,
+        "description": "New HTML5 Elements.",
+        "publishDate": "19-06-2015",
+        "image": "https://www.w3.org/html/logo/downloads/HTML5_sticker.png"
+    },
+    {
+        "title": "File Manager",
+        "id": 10,
+        "description": "This is file manager for your system, bla bla bla",
+        "publishDate": "15-26-2016",
+        "image": "https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/HTML5-.jpg"
+    },
+    {
+        "title": "ES6",
+        "id": 11,
+        "description": "ES6. ECMAScript 6 — New Features: Overview & Comparison. See how cleaner and more concise your JavaScript code can look and start coding in ES6 now !!",
+        "publishDate": "15-26-2016",
+        "image": "https://www.redfin.com/blog/wp-content/uploads/sites/5/2016/04/es6_logo.jpg"
+    },
+    {
+        "title": "Atom setup and packages",
+        "id": 12,
+        "description": "Atom Plugin to enlarge the active pane, either with a shortcut or with a super handy follow mode.",
+        "publishDate": "19-06-2015",
+        "image": "https://i.ytimg.com/vi/hPC6keUUiTA/maxresdefault.jpg"
+    },
+    {
+        "title": "Manjaro",
+        "id": 13,
+        "description": "Manjaro Linux is a new linux distribution which is based on arch linux.",
+        "publishDate": "15-26-2016",
+        "image": "https://forum.manjaro.org/uploads/default/original/2X/b/bb6b3a66196776a5d215b85458a1d25f0ba5fa89.png"
+    },
+    {
+        "title": "JSON",
+        "id": 14,
+        "description": "JSON is an open, text-based data exchange format (see RFC 4627).",
+        "publishDate": "15-26-2016",
+        "image": "http://www.cbronline.com/wp-content/uploads/2016/07/JSON.png"
+    },
+    {
+        "title": "Web development",
+        "id": 15,
+        "description": "Starting from the basics of how the web works, you will learn everything you need to know to build your own blog and scale it to support large numbers of users.",
+        "publishDate": "19-06-2015",
+        "image": "http://images.huffingtonpost.com/2016-09-22-1474505349-8662319-WebDesign.jpg"
+    },
+    {
+        "title": "Responsive Design",
+        "id": 16,
+        "description": "Responsive Web Design makes your web page look good on all devices (desktops, tablets, and phones).",
+        "publishDate": "15-26-2016",
+        "image": "https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/06/webdesign.jpg"
+    },
+    {
+        "title": "Web tools",
+        "id": 17,
+        "description": "Contribute to WebTools.bundle development by creating an account on GitHub.",
+        "publishDate": "15-26-2016",
+        "image": "http://merakiwebdesign.com/wp-content/uploads/2016/06/featured34.jpg"
+    },
+    {
+        "title": "Git",
+        "id": 18,
+        "description": "Git is a distributed version control system. Every dev has a working copy of the code and full change history on their local machine, by Linus Torvalds.",
+        "publishDate": "19-06-2015",
+        "image": "http://www.pixelninja.me/wp-content/uploads/2016/05/git-logo.jpg"
+    },
+    {
+        "title": "Linux",
+        "id": 19,
+        "description": "Linux is a Unix-like computer operating system assembled under the model of free and open-source software development and distribution.",
+        "publishDate": "15-26-2016",
+        "image": "https://hsto.org/getpro/habr/post_images/5ec/357/34b/5ec35734bab2e31653e9e7ab4ceaa211.png"
+    },
+    {
+        "title": "React",
+        "id": 20,
+        "description": "react - A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+        "publishDate": "15-26-2016",
+        "image": "https://facebook.github.io/react/img/logo_og.png"
+    },
+    {
+        "title": "Node.js",
+        "id": 21,
+        "description": "Node.js is a platform for building fast and scalable server applications using JavaScript. ",
+        "publishDate": "19-06-2015",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2000px-Node.js_logo.svg.png"
+    },
+    {
+        "title": "MongoDB",
+        "id": 22,
+        "description": "MongoDB for GIANT Ideas - Build innovative modern applications that create a competitive advantage.",
+        "publishDate": "15-26-2016",
+        "image": "https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png"
+    },
+    {
+        "title": "Ruby on Rails",
+        "id": 23,
+        "description": "Course Outcomes. Build 8 full-fledged web applications with Rails, one of the most popular and easy to use web application development frameworks. ",
+        "publishDate": "15-26-2016",
+        "image": "https://igorosa.com/wp-content/uploads/2016/04/rubyrails1.png"
+    }
 ]

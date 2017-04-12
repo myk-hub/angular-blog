@@ -1,24 +1,21 @@
 'use strict';
 
 angular.
-  module('post').
-    factory('Post', function($resource){
-      var url = '/json/posts.json'
-      return $resource(url, {}, {
+module('post').
+factory('Post', function($resource) {
+    var url = '/json/posts.json'
+    return $resource(url, {}, {
         query: {
-          method: "GET",
-          params: {},
-          isArray: true,
-          cache: false,
-          //transformResponse
-          //interceptor
+            method: "GET",
+            params: {},
+            isArray: true,
+            cache: false,
         },
         get: {
-          method: "GET",
-          //params: {"id": @id},
-          isArray: true,
-          cache: false,
+            method: "GET",
+            isArray: true,
+            cache: false,
         }
-      })
+    })
 
-    });
+});
